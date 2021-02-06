@@ -14,8 +14,8 @@ regressor.fit(x,y)
 
 pickle.dump(regressor,open('model.pkl','wb'))
 
-
+"""
 model = pickle.load(open('model.pkl','rb'))
 print(model.predict([[2.6, 8, 10.1]]))
-
+"""
 
